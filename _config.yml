@@ -1,5 +1,5 @@
 #---------------------------
-# Hexo Theme Miracle
+# Hexo HaoMiao Blog
 # Author: YFun (@oCoke)
 # GitHub: https://github.com/oCoke/hexo-theme-miracle
 #---------------------------
@@ -25,7 +25,7 @@ global:
 
     # 导航栏左侧的标题，为空则按 hexo config 中 `title` 显示
     # The title on the left side of the navigation bar. If empty, it is based on `title` in hexo config
-    nav_title: "Theme Miracle"
+    nav_title: "HaoMiao Blog"
 
     # 浏览器标签页中的标题分隔符，效果： 文章名 - 站点名
     # Title separator in browser tab, eg: article - site
@@ -154,9 +154,9 @@ custom:
 index:
     # 名称
     # Name
-    name: "Theme Miracle"
+    name: "HaoMiao Blog"
     # Slogan
-    slogan: 一款简洁的单栏 Hexo 主题
+    slogan: 别名浩淼
 
     # 文章通过 `sticky` 排序
     # The posts are sorted by `sticky`
@@ -180,13 +180,13 @@ navbar:
     # 导航栏菜单，可自行增减.
     # Navigation bar menu.
     menu:
-        # 首页: /
-        # 归档: /archives/
-        # 分类: /categories/
-        # 标签: /tags/
-        # 说说: /talk/
-        # 友链: /links/
-        # 关于: /about/
+         index: /
+         archives: /archives/
+         categories: /categories/
+#         标签: /tags/
+#         说说: /talk/
+#         友链: /links/
+         about: /about/
         # ...
 
 
@@ -223,23 +223,23 @@ post:
     # 估计阅读全文需要的时长
     # Estimate the time required to read the full text
     min2read:
-        enable: false
+        enable: true
         format: "预计 {} 分钟"
         # 每分钟阅读多少字，如果是技术文章，建议降低
         # Words read per minute
-        words: 120
+        words: 30
 
     # 文章阅读量统计
     # Article reading statistics
     # 由 不蒜子 提供支持
     # Supported by busuanzi
     views:
-        enable: false
+        enable: true
         format: "共 {} 次阅读"
 
     # 评论插件
     # Comment plugin
-    comment: true
+    comment: false
 
     # 代码显示设置
     # Code display setting
