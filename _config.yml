@@ -183,7 +183,7 @@ navbar:
          index: /
          archives: /archives/
          categories: /categories/
-         标签: /tags/
+         tags: /tags/
 #         说说: /talk/
 #         友链: /links/
          about: /about/
