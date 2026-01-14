@@ -156,7 +156,7 @@ index:
     # Name
     name: "HaoMiao Blog"
     # Slogan
-    slogan: 别名浩淼
+    slogan: May your days be filled with sunshine and laughter, dcmxbj@163.com
 
     # 文章通过 `sticky` 排序
     # The posts are sorted by `sticky`
@@ -186,7 +186,7 @@ navbar:
          tags: /tags/
 #         说说: /talk/
 #         友链: /links/
-         about: /about/
+#         about: /about/
         # ...
 
 
